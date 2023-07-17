@@ -1,0 +1,79 @@
+body{
+    align-items: center;
+}
+.logo{
+    width:150px;
+    display:block;
+    margin:auto;
+    padding-top: 30px;
+}
+form{
+    border:1px solid grey;
+    width:350px;
+    display:block;
+    margin: auto;
+    padding : 10px 10px 10px 20px;
+    margin-top:10px;
+    border-radius: 4px;
+}
+.create{
+    font-family: Arial;
+    font-size: 30px;
+    margin-top:10px;
+}
+.name{
+    margin-top: 5px;
+    padding:6px 6px 6px 6px;
+    width:280px;
+    outline:none;
+    border: 1px solid grey;
+    border-radius: 2px;
+}
+.name::placeholder{
+    padding:10px 5px 10px 5px;
+}
+.name:focus,.password:focus,.mobile:focus{
+    border:1px solid grey;
+    box-shadow: 0px 0px 5px 5px rgba(8, 150, 245, 0.3);
+}
+select{
+    border:1px solid light grey;
+    padding:5px 0px 5px 5px;
+    border-radius:4px;
+}
+.mobile{
+    padding:6px 6px 6px 6px;
+    margin-left: 10px;
+    outline:none;
+    border-radius: 2px;
+    border: 1px solid grey;
+}
+.password{
+    padding:6px 6px 6px 6px;
+    width:280px;
+    margin-bottom: 5px;
+    outline:none;
+    border-radius: 2px;
+    border: 1px solid grey;
+}
+.i{
+    font-style: italic;
+    color: rgb(15, 155, 202);
+    font-size: 20px;
+}
+button{
+    border:1px solid #f3c550c7;
+    background-color: #f3c550c7;
+    width:310px;
+    padding: 8px 10px 8px 10px;
+    border-radius: 8px;
+    margin-bottom: 50px;
+}
+.sign{
+    text-decoration: none;
+    color:rgb(6, 88, 155);
+}
+.sign:hover{
+    text-decoration: underline;
+    color:orange;
+}
